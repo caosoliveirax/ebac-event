@@ -1,3 +1,5 @@
+@use '../vars';
+
 .button {
     padding: 12px;
     font-size: 18px;
@@ -7,8 +9,8 @@
     white-space: nowrap;
     
     &--primary {
-        color: #FFF;
-        background-color: #4F2AC3;
+        color: vars.$txt-color;
+        background-color: vars.$purple;
     }
     
     @media(max-width: 640px) {
